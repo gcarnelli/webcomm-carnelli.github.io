@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DesireNails</title>
+        <link rel="stylesheet" href="desire_nails.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+        <script defer src="script.js"></script>
+    </head>
+
+    <body>
+
+        <header class="barra_navigazione">
+
+                <img src="./imgs/logo_desirenails.png" class="logo_barra">
+
+            <nav class="nav_link_barra">
+
+                <a class="link_barra" onclick="showSection('home')">HOME</a>
+
+                <a class="link_barra" onclick="showSection('book')">BOOK</a>
+
+                <a class="link_barra" onclick="showSection('about-us')">ABOUT US</a>
+
+                <a class="link_barra" onclick="showSection('store')">STORE</a>
+
+                <a class="link_barra" onclick="showSection('price-list')">PRICE LIST</a>
+
+            </nav>
+
+        </header>
+
+        
+        <main>
+
+            <section id="home" class="active">
+                    <div class="front_image">
+                        <img src="./imgs/front_image7.png">
+                    </div>
+
+                    <h1 class="titolo_trattamenti">Our Treatments</h1>
+                    
+                    <div class="trattamenti-container">
+
+                        <div class="trattamento-card">
+                            <img src="imgs/trattamenti/Pedicure&Manicure.jpg" alt="Trattamento 1">
+                            <div class="overlay">
+                                <h3>Pedicure & Manicure</h3>
+                                <p>We provide professional nail care, including trimming, shaping, and buffing nails, cuticle care, moisturizing massages.</p>
+                            </div>
+                            <div class="title">Pedicure & Manicure</div>
+                        </div>
+
+                        <div class="trattamento-card">
+                            <img src="imgs/trattamenti/Semipermanent.jpg" alt="Trattamento 2">
+                            <div class="overlay">
+                                <h3>Semipermanent</h3>
+                                <p>Enjoy a professional nail care with a wide range of polish options, from classic colors to trendy nail art.</p>
+                            </div>
+                            <div class="title">Semipermanent</div>
+                        </div>
+
+                        <div class="trattamento-card">
+                            <img src="imgs/trattamenti/Nail Reconstruction.jpg" alt="Trattamento 3">
+                            <div class="overlay">
+                                <h3>Nails Reconstruction</h3>
+                                <p>Healing and aesthetic nails reconstruction with the Russian method. Natural aesthetics and guaranteed resistance.</p>
+                            </div>
+                            <div class="title">Nails Reconstruction</div>
+                        </div>
+
+                        <div class="trattamento-card">
+                            <img src="imgs/trattamenti/Laser Hair Removal.jpg" alt="Trattamento 4">
+                            <div class="overlay">
+                                <h3>Laser Hair Removal</h3>
+                                <p>The best system for permanent progressive hair removal, effective, painless, fast and safe.</p>
+                            </div>
+                            <div class="title">Laser Hair Removal</div>
+                        </div>
+
+                        <div class="trattamento-card">
+                            <img src="imgs/trattamenti/Permanent Make-Up.jpg" alt="Trattamento 5">
+                            <div class="overlay">
+                                <h3>Permanent Make-Up</h3>
+                                <p>New technique the hair drawn with the dermograph are super natural and the color comes closer to the natural color of the hair.</p>
+                            </div>
+                            <div class="title">Permanent Make-Up</div>
+                        </div>
+
+                        <div class="trattamento-card">
+                            <img src="imgs/trattamenti/Lash&Brow Lamination_Extensions.jpg" alt="Trattamento 6">
+                            <div class="overlay">
+                                <h3>Lash & Brow</h3>
+                                <p>Experience enhanced eyes with a natural-looking Lash Lifts, defining Brow Lamination, and custom Lash Extensions.</p>
+                            </div>
+                            <div class="title">Lash & Brow</div>
+                        </div>
+
+                        <div class="trattamento-card">
+                            <img src="imgs/trattamenti/Ayurvedic Massage.jpg" alt="Trattamento 7">
+                            <div class="overlay">
+                                <h3>Ayurvedic Massage</h3>
+                                <p>Try an ancient Indian healing practice that use warm, medicated herbal olis to balance the mind, body and spirit.</p>
+                            </div>
+                            <div class="title">Ayurvedic Massage</div>
+                        </div>
+
+                        <div class="trattamento-card">
+                            <img src="imgs/trattamenti/vibro therapy.jpg" alt="Trattamento 8">
+                            <div class="overlay">
+                                <h3>Vibromagnetic Therapy</h3>
+                                <p>It's a device that uses magnetic vibrations to relieve tension, headaches, nausea, insomnia, and cervical and lower back pain.</p>
+                            </div>
+                            <div class="title">Vibromagnetic Therapy</div>
+                        </div>
+                    </div>
+
+                    
+                    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+                    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+                    <h1 class="titolo_carosello">Our Latest Works</h1>
+
+                    <div class="container mt-3">
+                        
+                        
+                        <div id="myCarousel" class="carousel slide">
+                        
+                            
+                            <ul class="carousel-indicators">
+                                <li class="item1 active"></li>
+                                <li class="item2"></li>
+                                <li class="item3"></li>
+                                <li class="item4"></li>
+                                <li class="item5"></li>
+                                <li class="item6"></li>
+                                <li class="item7"></li>
+                                <li class="item8"></li>
+                                <li class="item9"></li>
+                                <li class="item10"></li>
+                            </ul>
+                            
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="imgs/carosello/carosello1.png">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="imgs/carosello/carosello2.png">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="imgs/carosello/carosello3.png">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="imgs/carosello/carosello4.png">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="imgs/carosello/carosello5.png">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="imgs/carosello/carosello6.png">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="imgs/carosello/carosello7.png">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="imgs/carosello/carosello8.png">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="imgs/carosello/carosello9.png">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="imgs/carosello/carosello10.png">
+                                </div>
+                            </div>
+
+                            
+                            <a class="carousel-control-prev" href="#myCarousel">
+                                <span class="carousel-control-prev-icon"></span>
+                            </a>
+                            <a class="carousel-control-next" href="#myCarousel">
+                                <span class="carousel-control-next-icon"></span>
+                            </a>
+                            </div>
+                    </div>
+
+
+            </section>
+            
+
+            <section id="book">
+
+                <div class="booking-wrapper">
+                    <div class="booking-container">
+
+                        <h2 class="title">Book Your Appointment</h2>
+                        <p class="subtitle">Choose date, time and treatment</p>
+
+                        <form id="bookingForm" class="form">
+
+                            <div class="input-group">
+                                <label>Date</label>
+                                <input type="date" id="date" required>
+                            </div>
+
+                            <div class="input-group">
+                                <label>Time</label>
+                                <input type="time" id="time" required>
+                            </div>
+
+                            <div class="input-group">
+                                <label>Treatment</label>
+                                <select id="treatment" required>
+                                    <option value="">Select...</option>
+                                     <option>Semipermanent</option>
+                                    <option>Retouch Gel</option>
+                                    <option>Nail reconstruction</option>
+                                    <option>Pedicure</option>
+                                    <option>Laser Hair Removal</option>
+                                    <option>Permanent Make-Up</option>
+                                    <option> Lash & Brow Lamination/Extensions</option>
+                                    <option>Ayurvedic massage</option>
+                                </select>
+                            </div>
+
+                            <div class="input-group">
+                                <label>Email</label>
+                                <input type="email" id="email" required placeholder="name@email.com">
+                            </div>
+
+                            <button type="submit" class="btn">Confirm Booking</button>
+
+                        </form>
+
+                        <p id="message" class="message"></p>
+                    </div>
+                </div>
+
+            </section>
+            
+
+
+        <section id="about-us">
+        <div class="about-wrapper">
+
+        
+        <div class="about-image">
+            <img src="./imgs/about_us.img.webp" alt="About Us">
+        </div>
+
+       
+        <div class="about-text">
+            <h2>Who We Are</h2>
+            <p>
+                A reference in the sector, the Desire Nails academy is a salon specializing in nail reconstruction with products 
+                made specifically for the needs of its customers. Desire Nails not only offers dedicated services, 
+                it also offers a wide selection of aesthetic treatments. 
+                Our mission is to offer professional, innovative and personalized treatments, combining quality, 
+                advanced technique and a welcoming environment.  
+                From nail reconstruction to laser hair removal, from permanent make-up to Ayurvedic massages: 
+                the well-being of our clients always comes first.
+            </p>
+        </div>
+
+    </div>
+
+
+   
+    <div class="newsletter-box">
+        <h2>Subscribe to Our Newsletter</h2>
+        <p>Don't miss promotions, last-minute offers and exclusive announcements.</p>
+
+        <form class="newsletter-form">
+            <input type="email" placeholder="Enter your email..." required>
+            <button type="submit">Subscribe</button>
+        </form>
+
+       
+    <p class="thank-you-message" style="display: none; color: #b49dd9; margin-top: 15px;">
+    Thank you for subscribing!
+    </p>
+    </div>
+
+
+    
+    <h2 class="reviews-title">Kind Words From Our Clients</h2>
+
+    <div class="reviews-container">
+
+        <div class="review-card">
+            <p>
+                "Great experience, the girls are super professional, always very kind, top service! Highly recommended."
+            </p>
+            <span>- Nadia B.</span>
+        </div>
+
+        <div class="review-card">
+            <p>
+                "The treatments and location were first-class! The expertise and kindness were top notch. I highly recommend them."
+            </p>
+            <span>- Francesca G.</span>
+        </div>
+
+        <div class="review-card">
+            <p>
+                "Excellent and professional service. Have done my pedicure there - fantastic experience, highly recommended"
+            </p>
+            <span>- Olga</span>
+        </div>
+
+    </div>
+         </section>
+            
+
+            <section id="store">
+
+                <div class="store">
+                    <div class="map_section">
+                        <div class="google_Map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5594.101939541374!2d9.
+                            16325418290565!3d45.48891834353584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.
+                            1!3m3!1m2!1s0x4786c1b225f95555%3A0x44b59bb36b71d72d!2sDesire%20Nails%20Academy!
+                            5e0!3m2!1sen!2sit!4v1764753654439!5m2!1sen!2sit"
+                            allowfullscreen="" 
+                            loading="lazy"></iframe>
+                        </div>
+                        <div class="map_info">
+                            <h2>Our Store</h2>
+                            <ul>
+
+                                <br>
+                                <li><a href="https://maps.app.goo.gl/GjKtkFPXuH6KoSTD7" target="_blank"> 
+                                    Via Principe Eugenio, 6 Milan (MI) 20155</a>
+                                </li>
+                                <br>  
+
+                                <li>Opening Hours </li>
+                                <li>  Monday - Friday: 11:00 - 20:00</li>
+                                <li>Saturday: By appointment only </li>
+                                <li>Sunday: Closed </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            
+            <section id="price-list">
+                <div class="listino_prezzi1">
+                    <img src="./imgs/listino prezzi/listino_prezzi1.png">
+                </div>
+                <div class="listino_prezzi2">
+                    <img src="./imgs/listino prezzi/listino_prezzi2.png">
+                </div>
+                <div class="listino_prezzi2">
+                    <img src="./imgs/listino prezzi/listino_prezzi3.png">
+                </div>
+                <div class="listino_prezzi2">
+                    <img src="./imgs/listino prezzi/listino_prezzi4.png">
+                </div>
+                <div class="listino_prezzi2">
+                    <img src="./imgs/listino prezzi/listino_prezzi5.png">
+                </div>
+            </section>
+            
+
+            <div id="cookie-popup" class="cookie-popup hidden">
+                <div class="cookie-box">
+
+                    <p class="cookie-text">
+                        We use cookies to improve your experience.<br>
+                        Accept to continue.
+                    </p>
+
+                    <div class="cookie-buttons">
+                        <button id="cookie-accept" class="cookie-btn accept">Accept</button>
+                        <button id="cookie-decline" class="cookie-btn decline">Decline</button>
+                    </div>
+                </div>
+            </div>
+            
+        </main>
+
+     
+<footer class="footer">
+
+   
+    <div class="footer-section footer-logo">
+        <img src="./imgs/logo_desirenails.png" alt="Desire Nails Logo">
+    </div>
+
+    <div class="footer-section footer-social">
+        <h3>Follow Us</h3>
+        <div class="social-icons">
+    <a href="https://www.instagram.com/russian_nails_milano/" target="_blank">
+        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/instagram.svg" alt="Instagram">
+    </a>
+    <a href="https://www.tiktok.com/@desirenailsacademy" target="_blank">
+        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/tiktok.svg" alt="TikTok">
+    </a>
+    <a href="https://www.facebook.com/DesireNailsAcademy" target="_blank">
+        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/facebook.svg" alt="Facebook">
+    </a>
+    <a href="https://www.youtube.com/c/DesireNailsAcademy" target="_blank">
+        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/youtube.svg" alt="YouTube">
+    </a>
+</div>
+
+    </div>
+
+    
+    <div class="footer-section footer-contacts">
+        <h3>Contacts</h3>
+        <p>Email: <a href="academy@nailsdesire.com">academy@nailsdesire.com</a></p>
+        <p>Phone: <a href="tel:+39 02 3651 96 28"> +39 02 3651 96 28</a></p>
+        <p>Mobile: <a href="tel:+39 39 333 193 70 70">+39 333 193 70 70</a></p>
+    </div>
+
+    <div class="footer-bottom">
+      <p>
+         © 2018 by Desire Nails Acdemy. - Via Principe Eugenio 6 – 20155 Milano (MI) 
+     </p>
+
+    </div>
+</footer>
+
+
+    </body>
+
+</html>
