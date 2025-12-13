@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Desire Nails Presentation</title>
+  <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+
+  <style>
+  :root {
+    --title-bg: rgb(251, 198, 198);
+    --subtitle-bg: rgb(180, 157, 217);
+    --arrow-color: #4b3b5c;
+    --slide-bg: rgb(251, 198, 198);
+    --title-color: rgb(180, 157, 217);
+    --text-color: rgb(230, 225, 240);
+  }
+
+  .remark-slide-content {
+    background-color: var(--slide-bg);
+    color: var(--text-color);
+  }
+
+  h1, h2, h3, .main-title, .subtitle {
+    font-family: 'Playfair Display', serif;
+    color: var(--title-color);
+  }
+
+  .text-block {
+    background: var(--text-bg);
+    color: white;
+    padding: 18px 25px;
+    border-radius: 12px;
+    font-size: 1.4rem;
+    text-align: justify;
+  }
+
+  .img-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+  }
+
+  .img-grid img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  }
+
+  .nav-arrow {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    color: var(--arrow-color);
+    opacity: 0.6;
+    cursor: pointer;
+    user-select: none;
+    z-index: 999;
+  }
+
+  .nav-arrow:hover {
+    opacity: 1;
+  }
+
+  #arrow-left {
+    left: 10px;
+  }
+
+  #arrow-right {
+    right: 10px;
+  }
+
+  .longterm_wrapper {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+
+.longterm_wrapper img {
+  width: 60%;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+}
+
+.longterm_images {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 20px;
+  width: 200%;
+}
+
+.longterm_images img {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+}
+
+.longterm_wrapper .text_block {
+  text-align: justify; 
+  color: white;
+}
+
+.tech-images {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.tech-images img {
+  width: 30%;
+  height: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div id="arrow-left" class="nav-arrow">◄</div>
+<div id="arrow-right" class="nav-arrow">►</div>
+
+<textarea id="source">
+
+class: center, middle
+
+# <span class="main-title">Desire Nails Pitch Deck</span>
+### <span class="subtitle">Project Overview</span>
+
+---
+
+# The Idea
+
+<div class="text-block">
+The refactoring project was born from the need to improve the user experience and make the site more modern and performant.  
+This site was chosen for its potential to foster creativity while providing an opportunity to apply the knowledge and skills 
+gained during the course.  
+
+The main objectives were:
+<ul>
+<li>Modernization of the original site;</li>
+<li>Facilitate understanding of the treatments offered and make content management easier;</li>
+<li>Delete/reduce links to external sites as much as possible;</li>
+<li>Improve the overall UX/UI to reflect the elegance and professionalism of a beauty salon;</li>
+<li>More visually compelling gallery layout;</li>
+<li>A structured price list.</li>
+</ul>
+</div>
+
+---
+
+# Before&After
+
+<div class="img-grid">
+  <img src="imgs/prima1.jpg">
+  <img src="imgs/dopo1.img.jpg">
+  <img src="imgs/prima2.jpg">
+  <img src="imgs/dopo2.jpg">
+</div>
+
+---
+
+# The Technology Used
+
+
+
+<div class="text-block">
+<ul>
+<li><strong>HTML:</strong> Semantic structure, better accessibility, maintainability.</li>
+<li><strong>CSS:</strong> New purple palette, animations, modern responsive layout.</li>
+<li><strong>JavaScript:</strong> Section switching, cookie popup, form validation, EmailJS demo.</li>
+<li><strong>Bootstrap:</strong> Carousel + responsive components.</li>
+</ul>
+
+<div class="tech-images">
+  <img src="imgs/html.jpg" alt="HTML example">
+  <img src="imgs/css.jpg" alt="CSS example">
+  <img src="imgs/js.jpg" alt="JavaScript example">
+</div>
+</div>
+
+---
+
+# Long-Terms Plans
+
+<div class="longterm_wrapper">
+
+<div class="text_block">
+<ul>
+<li>Dynamic promotions & news sections;</li>
+<li>Cookies activations;</li>
+<li>EmailJS real booking confirmations;</li>
+<li>Rebranding of the social media such as Instangram, TikTok and YouTube 
+to ensure consistency, build reputation, and increase awareness 
+(social ADVs, influencer collaborations, shorts/reels).</li>
+</ul>
+</div>
+
+<div class="longterm_images">
+    <img src="imgs/ig_ex.jpg" alt="Long term plan illustration">
+    <img src="imgs/TY_ex .jpg" alt="Long term plan illustration">
+  </div>
+</div>
+
+
+---
+
+# Lessons Learned
+
+<div class="text-block">
+<ul>
+<li>Construction of the navigation bar;</li>
+<li>I got involved, as with the development of the carousel, exploring on various programming sites for elements that intrigued me; </li>
+<li>Editing images for example to create the price list.</li>
+</ul>
+</div>
+
+---
+
+class: center, middle
+
+# <span class="main-title">Thanks for your attention!</span>
+
+</textarea>
+
+<script>
+  const slideshow = remark.create();
+
+  document.getElementById("arrow-left").addEventListener("click", () => {
+    slideshow.gotoPreviousSlide();
+  });
+
+  document.getElementById("arrow-right").addEventListener("click", () => {
+    slideshow.gotoNextSlide();
+  });
+</script>
+
+</body>
+</html>
